@@ -1,0 +1,10 @@
+# Carpetas Excluidas
+/assets
+/icons
+/img
+
+# Extensiones de Imagenes
+*.jpg
+*.jpeg
+*.png
+*.svg
