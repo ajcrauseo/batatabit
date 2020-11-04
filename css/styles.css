@@ -34,6 +34,8 @@ html {
     font-family: var(--font-dmsans);
 }
 
+/* ---------- HEADER ----------*/
+
 .header {
     position: relative;
     display: flex;
@@ -105,4 +107,94 @@ html {
     height: 8px;
     margin-left: 13px;
     background-image: url('../assets/icons/down-arrow.svg');
+}
+
+/* MAIN SECTION */
+
+.exchange-rate {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--off-white);
+}
+
+.exchange-rate--image {
+    margin: 50px 0;
+    width: 70%;
+}
+
+.exchange-rate--presentation {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.exchange-rate--presentation_title {
+    padding: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+exchange-rate--presentation_description {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.exchange-rate--card {
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-rate--card_title {
+    font-size: 1.8rem;
+    line-height: 2.344rem;
+    color: var(--bitcoin-orange);
+    font-weight: 700;
+    align-self: flex-start;
+    padding: 10px 4px;
+}
+
+.exchange-rate--card_grid {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr .4fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    border-radius: 40px;
+}
+
+.exchange-rate--card_grid p {
+    background-color: var(--just-white);
+    padding: 10px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--grey);
+}
+
+.exchange-rate--card_grid p span {
+    margin-left: 5px;
+}
+
+.exchange-rate--update {
+    background-color: var(--soft-orange);
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: var(--font-inter);
+    font-size: 1.6rem;
+}
+
+.bold { 
+    font-weight: 700;
+}
+
+.arrow {
+    font-size: 1.2rem;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin: auto;
 }
