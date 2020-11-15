@@ -223,6 +223,9 @@ html {
 }
 
 .item.button {
+    border: none;
+    outline: none;
+    background-color: var(--off-white);
     grid-area: boton;
     display: flex;
     justify-content: center;
@@ -230,6 +233,7 @@ html {
     background-image: url(../assets/icons/right-arrow.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    transition: all 0.5s ease;
 }
 
 .item.button a {
@@ -317,6 +321,9 @@ html {
 }
 
 .item.button2 {
+    border: none;
+    outline: none;
+    background-color: var(--off-white);
     grid-area: boton;
     display: flex;
     justify-content: center;
